@@ -1,3 +1,94 @@
+html {
+    display: grid;
+}
+
 header {
     background-color: #ffffff;
+    margin: 0 200px;
+}
+
+header::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.pages {
+    float: right;
+    margin-top: 1em;
+}
+
+.greyBackground {
+    background-color: grey;
+    height: 400px;
+    padding: 100px;
+}
+
+.container {
+    padding: 20px;
+    margin: 0 100px;
+    background-color: white;
+    width: 960px;
+    height: 380px;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+li {
+    list-style: none;
+    padding: 5px;
+}
+
+a {
+    
+}
+
+h1, h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    color: white;
+    float: left;
+    padding: 20px;
+}
+
+h2 {
+    color: #4aaaa5;
+}
+
+div::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.projects {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.leftFloat {
+    float: left;
+}
+
+.myPic {
+    width: 400px;
+    height: auto;  
+}
+
+footer {
+    background-color: #666666;
+    width: 100%;
+    /* position: fixed; */
+    border-top: 2px solid #4aaaa5;
+    color: white;
+    display: flex;
+    justify-content: center;
 }
