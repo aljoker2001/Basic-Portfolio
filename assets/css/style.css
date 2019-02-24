@@ -13,13 +13,21 @@ header::after {
     display: block;
 }
 
+hr {
+    color: #dddddd;
+}
+
+p, label {
+    color: #777777;
+}
+
 .pages {
     float: right;
     margin-top: 1em;
 }
 
 .greyBackground {
-    background-color: grey;
+    background-color: #dddddd;
     height: 400px;
     padding: 100px;
 }
@@ -40,11 +48,16 @@ header::after {
 
 li {
     list-style: none;
-    padding: 5px;
 }
 
 a {
-    
+    color: #777777;
+    text-decoration: none;
+    padding: 3px 5px;
+}
+
+.linkBar {
+    border-right: 1px solid #777777;
 }
 
 h1, h2 {
@@ -56,6 +69,7 @@ h1 {
     color: white;
     float: left;
     padding: 20px;
+    margin: 0;
 }
 
 h2 {
@@ -68,27 +82,34 @@ div::after {
     display: block;
 }
 
-.projects {
-    content: "";
-    display: block;
-    clear: both;
-}
-
 .leftFloat {
     float: left;
 }
 
 .myPic {
     width: 400px;
-    height: auto;  
+    height: auto;
+    padding-right: 20px; 
+}
+
+.portfolio {
+    width: 400px;
+    height: auto;
+    float: left;
+}
+
+#projects {
+    display: grid;
+    grid-auto-columns: 480px;
 }
 
 footer {
     background-color: #666666;
     width: 100%;
     /* position: fixed; */
-    border-top: 2px solid #4aaaa5;
+    border-top: 5px solid #4aaaa5;
     color: white;
+    padding: 15px;
     display: flex;
     justify-content: center;
 }
