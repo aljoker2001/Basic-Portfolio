@@ -56,6 +56,14 @@ a {
     padding: 3px 5px;
 }
 
+.submission {
+    padding-left: 0;
+}
+
+input {
+    width: 100%;
+}
+
 .linkBar {
     border-right: 1px solid #777777;
 }
@@ -101,6 +109,10 @@ div::after {
 #projects {
     display: grid;
     grid-auto-columns: 480px;
+}
+
+#message {
+    height: 125px;
 }
 
 footer {
