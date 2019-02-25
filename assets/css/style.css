@@ -113,15 +113,28 @@ div::after {
     float: left;
 }
 
+.textBlock {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff !important;
+    width: 225px;
+    display: flex;
+    justify-content: center;
+    padding: 0 !important;
+}
+
 #projects {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-template-rows: 1fr;
+    position: relative;
 }
 
 #message {
     height: 125px;
+    resize: both;
+    overflow: scroll;
 }
 
 footer {
