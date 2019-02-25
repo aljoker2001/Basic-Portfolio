@@ -113,6 +113,14 @@ div::after {
     float: left;
 }
 
+.each {
+    transition: all 0.5s;
+}
+
+.each:hover {
+    transform: scale(1.1);
+}
+
 .textBlock {
     position: absolute;
     background-color: #4aaaa5;
