@@ -102,20 +102,22 @@ div::after {
 }
 
 .myPic {
-    width: 400px;
+    width: 200px;
     height: auto;
     padding-right: 20px; 
 }
 
 .portfolio {
-    width: 400px;
+    width: 225px;
     height: auto;
     float: left;
 }
 
 #projects {
     display: grid;
-    grid-auto-columns: 480px;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-rows: 1fr;
 }
 
 #message {
