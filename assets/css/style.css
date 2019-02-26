@@ -24,11 +24,13 @@ hr {
 
 p, label {
     color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .pages {
     float: right;
     margin-top: 1em;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .greyBackground {
@@ -163,4 +165,5 @@ footer {
     display: flex;
     justify-content: center;
     font-size: 0.75em;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
