@@ -68,6 +68,7 @@ a {
 
 input {
     width: 100%;
+    margin-bottom: 10px;
 }
 
 button {
@@ -148,6 +149,7 @@ div::after {
 
 #message {
     height: 125px;
+    margin-bottom: 0;
     resize: both !important;
     overflow: auto !important;
 }
