@@ -28,6 +28,10 @@ p, label {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+.bio {
+    line-height: 30px;
+}
+
 .pages {
     float: right;
     margin-top: 1em;
