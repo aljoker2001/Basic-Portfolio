@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    margin: 20px 0 0 0;
+    margin: 0;
 }
 
 header {
@@ -89,7 +89,7 @@ input {
 button {
     background-color: #4aaaa5;
     color: #ffffff;
-    padding: 5px 25px;
+    padding: 7px 25px;
     transition: all .5s;
 }
 
